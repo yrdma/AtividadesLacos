@@ -12,7 +12,7 @@ public class atividade6 {
             System.out.println("Digite os valores que deseja fazer a media: ");
             valores[i] = sc.nextInt();
 
-            somaDosNumeros = valores[i] + somaDosNumeros;
+            somaDosNumeros += valores[i];
         }
         System.out.printf("A média será de:" + somaDosNumeros / n);
 
